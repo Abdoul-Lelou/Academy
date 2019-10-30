@@ -119,7 +119,6 @@
                         <th scope="col">Prénom</th> 
                         <th scope="col">Symptome</th>
                         <th scope="col">Age</th>   
-                        <th scope="col">Action</th> 
                     </tr>
                     
 				</thead>
@@ -164,8 +163,6 @@
                         <th scope="col">Prénom_Medecin</th> 
                         <th scope="col">Nom_Medecin</th>
                         <th scope="col">Specialite</th>
-                        <th scope="col">Action</th>
-                         
                     </tr>
                     
 				</thead>
@@ -267,7 +264,7 @@ function verifJour()
  }
  
  $(document).ready(function(){
-   var date_input=$('input[name="date"]'); //our date input has the name "date"
+   var date_input=$('input[name="date"]'); 
    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
    var options={
      format: 'yyyy/mm/dd',

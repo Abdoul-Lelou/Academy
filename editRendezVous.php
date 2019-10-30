@@ -138,10 +138,6 @@ require 'menu.php'; ?>
     }
 
     </script>
-<style>
-    .b{
-        background: ;
-    }
-    </style>
+
 </body>
 </html>
